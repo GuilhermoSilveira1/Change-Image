@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: #4e4e4e;
+    color: #FFF;
+}
+
+.imagem {
+    margin: 20px 5px;
+}
+
+.texto {
+    margin: 20px;
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+.buttons button{
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha Imagem</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="script.js" defer></script>
+</head>
+<!-- Elementos textuais da página -->
+<header>
+    <div class="texto">
+        <h1 id="title">Escolha sua imagem preferida!</h1>
+    </div>
+</header>
+<!-- Imagem que vai aparecer -->
+<body>
+    <div class="imagem">
+        <img src="./src/img/1.jpg" alt="Imagem de fundo" id="imagemNaTela">
+    </div>
+<!-- Botões para mudar a imagem que está aparecendo -->
+    <div class="buttons">
+        <button class="bi bi-arrow-bar-left" id="anterior" onclick="previousImage()"></button>
+        <button class="bi bi-play-fill" id="selecionar" onclick="selectImage()"></button>
+        <button class="bi bi-arrow-bar-right" id="proximo" onclick="nextImage()"></button>
+    </div>
+</body>
+</html>
